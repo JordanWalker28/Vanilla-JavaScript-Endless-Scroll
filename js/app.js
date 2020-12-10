@@ -32,7 +32,7 @@ function getCourses() {
     renderPost(json.data.posts)
   })
 }
-window.onscroll = function (ev) {
+window.onscroll = function () {
   if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 300)) {
     if (page.loaderMore) {
       page.loaderMore = false;
